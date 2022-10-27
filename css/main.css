@@ -137,9 +137,7 @@ button {
   background-color: var(--white-text-color);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.modal__btn-close:hover,
-.modal__btn-close:focus {
+.modal__btn-close:hover, .modal__btn-close:focus {
   outline: none;
   border-color: var(--accent-color);
 }
@@ -147,9 +145,7 @@ button {
 .modal__icon-top {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.modal__btn-close:hover .modal__icon-top,
-.modal__btn-close:focus .modal__icon-top {
+.modal__icon-top:hover .modal__icon-top, .modal__icon-top:focus .modal__icon-top {
   fill: var(--accent-color);
 }
 
@@ -191,9 +187,7 @@ button {
   padding-left: 42px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.modal-line__text:hover,
-.modal-line__text:focus {
+.modal-line__text:hover, .modal-line__text:focus {
   border: 1px solid #2196F3;
   outline: none;
 }
@@ -207,9 +201,7 @@ button {
   fill: #212121;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.modal-line__text:hover + .modal-line__icon,
-.modal-line__text:focus + .modal-line__icon {
+.modal-line__text:hover + .modal-line__icon, .modal-line__text:focus + .modal-line__icon {
   fill: #2196F3;
 }
 
@@ -222,16 +214,13 @@ button {
   border-radius: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .textarea-modal__text::placeholder {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-
-.textarea-modal__text:hover,
-.textarea-modal__text:focus {
+.textarea-modal__text:hover, .textarea-modal__text:focus {
   outline: none;
   border-color: var(--accent-color);
 }
@@ -361,16 +350,13 @@ button {
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.site-nav__link:hover,
-.site-nav__link:focus {
+.site-nav__link:hover, .site-nav__link:focus {
   color: var(--accent-color);
 }
 
 .site-nav__link_current {
   color: var(--accent-color);
 }
-
 .site-nav__link_current::after {
   position: absolute;
   content: "";
@@ -399,9 +385,7 @@ button {
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.contact-nav__link:hover,
-.contact-nav__link:focus {
+.contact-nav__link:hover, .contact-nav__link:focus {
   color: var(--accent-color);
 }
 
